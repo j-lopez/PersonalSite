@@ -1,0 +1,18 @@
+#About {
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+#title {
+    color: #3AAFA9; 
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#details {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px;
+    font-weight: bold;
+}

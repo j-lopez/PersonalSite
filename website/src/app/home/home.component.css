@@ -1,0 +1,70 @@
+#Home {
+    background: #3AAFA9;
+    height: 50%;
+}
+
+#info_bar {
+    overflow:hidden;
+    width: 100%;
+    height: 10vh;
+}
+
+#title {
+    float: left;
+    font-weight: bolder;
+    margin-left: 5vh;
+    margin-top: 15px;
+    color: White;
+    font-size: 5vh;
+    letter-spacing: 6px;
+}
+
+#link {
+    font-weight: bold;
+    font-size: 2vh;
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right;
+    color: white;
+    letter-spacing: 3px;
+}
+
+#profile {
+    width: 100%;
+    height: 50vh;
+    float: left;
+    background: white;
+}
+
+#picture {
+    text-align: center;
+    margin-top: 2vh;
+
+}
+
+#profile_picture {
+    height: 30vh;
+    border-radius: 50%;
+}
+
+#contact {
+    text-align: center;
+    font-size: 18px;
+}
+
+#contact_icon {
+    display: inline-block;
+    height: 20px;
+    width:  20px;
+    margin: 3px 10px;
+}
+
+#contact_text {
+    display: inline-block;
+    color: #17252A;
+    font-weight: 500;
+}
+
+#contact_link {
+    text-decoration: none;
+}
