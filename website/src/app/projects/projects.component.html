@@ -1,5 +1,24 @@
 <div id="Projects">
-    <p id="title">Projects</p>
+    <H1 id="title">Projects</H1>
+
+    <div id="individual" *ngFor="let project of personalProjects">
+
+        <div id="pictureContainer">
+            <img id="picture" [src]="project.picture"> 
+        </div>
+
+        <div id="smallDescription"> 
+            <p id="projectName">{{ project.name }}</p>
+            <br>
+            <p id="projectDescShort">&nbsp; &nbsp; &nbsp; {{ project.descriptionShort }}</p> 
+            <button (click)="showLongDescription()" id="readButton">See more</button>
+        </div>
+
+        <div id="longDescription">
+            {{ project.descriptionLong }}
+        </div>
+
+    </div>
 
 
 </div>
