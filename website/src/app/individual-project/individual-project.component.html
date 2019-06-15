@@ -1,0 +1,14 @@
+<div id="pictureContainer">
+    <img id="picture" [src]="project.picture"> 
+</div>
+
+<div id="smallDescription"> 
+    <p id="projectName">{{ project.name }}</p>
+    <br>
+    <p id="projectDescShort">&nbsp; &nbsp; &nbsp; {{ project.descriptionShort }}</p> 
+    <button (click)="changeLongDescription()" id="readButton">{{ button }}</button>
+</div>
+
+<div [style.display]="showDescription() ? 'inline' : 'none'" id="longDescription">
+    {{ project.descriptionLong }}
+</div>

@@ -2,7 +2,10 @@
     <H1 id="title">Projects</H1>
 
     <div id="individual" *ngFor="let project of personalProjects">
-
+        <app-individual-project
+            [project] = 'project'>
+        </app-individual-project>
+        <!--
         <div id="pictureContainer">
             <img id="picture" [src]="project.picture"> 
         </div>
@@ -17,8 +20,7 @@
         <div id="longDescription">
             {{ project.descriptionLong }}
         </div>
+        -->
 
     </div>
-
-
 </div>
