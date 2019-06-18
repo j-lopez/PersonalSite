@@ -1,26 +1,11 @@
 <div id="Projects">
     <H1 id="title">Projects</H1>
 
-    <div id="individual" *ngFor="let project of personalProjects">
-        <app-individual-project
-            [project] = 'project'>
-        </app-individual-project>
-        <!--
-        <div id="pictureContainer">
-            <img id="picture" [src]="project.picture"> 
+    <div id="project_container">
+        <div id="individual" *ngFor="let project of personalProjects">
+            <app-individual-project
+                [project] = 'project'>
+            </app-individual-project>
         </div>
-
-        <div id="smallDescription"> 
-            <p id="projectName">{{ project.name }}</p>
-            <br>
-            <p id="projectDescShort">&nbsp; &nbsp; &nbsp; {{ project.descriptionShort }}</p> 
-            <button (click)="showLongDescription()" id="readButton">See more</button>
-        </div>
-
-        <div id="longDescription">
-            {{ project.descriptionLong }}
-        </div>
-        -->
-
     </div>
 </div>

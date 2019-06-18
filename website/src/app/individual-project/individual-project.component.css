@@ -4,24 +4,22 @@
     width: 45%;
     height: 30vh;
     margin: 2vh 2.5%;
-    background: #b0b0b0;
-    border-color: orange;
-    border-style: solid;
 }
 
 #picture {
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
+    border: 1px solid #17252A;
+    border-radius: 10px;
 }
 
 #smallDescription {
     float: left;
+    text-align: justify;
     width: 45%;
     height: 30vh;
     margin: 2vh 2.5%;
-    border-color: green;
-    border-style: solid;
 }
 
 #projectName {
@@ -32,13 +30,33 @@
 
 #projectDescShort {
     font-size: 15px;
+    color: #17252A;
 }
 
 #longDescription {
-    float:left;
-    width: 90%;
-    margin: 0 5%;
-    display: none;
-    border-color: red;
-    border-style: solid;
+    width: 80%;
+    margin: 0 10%;
 }
+
+#description_text {
+    text-align: justify;
+    font-size: 15px;
+    color: #17252A;
+}
+
+.btn-read-more {
+    width: 90px;
+    float: right; 
+    color: #17252A; 
+    background-color: #FFFFFF; 
+    border-color: #17252A;
+    border-width: 1px;
+    transition: 0.4s; 
+} 
+
+.btn-read-more:hover { 
+    color: #FFFFFF; 
+    background-color: #17252A;
+    border-color: #17252A;
+    transition: 0.4s; 
+} 

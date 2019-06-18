@@ -8,15 +8,15 @@ import { Component, Input } from '@angular/core';
 export class IndividualProjectComponent {
     @Input() project;
     show = false;
-    button = "See more";
+    button = "Read more";
 
     constructor() {
         
     }
 
     changeLongDescription() {
-        if (this.show) { this.button = "See more" }
-        else { this.button = "See less"}
+        if (this.show) { this.button = "Read more" }
+        else { this.button = "Read less"}
         this.show = !this.show;
     }
 

@@ -1,67 +1,30 @@
 #Projects {
-    width: 80%;
     margin: 5vh 10%;
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
+    /* border: 1px solid black; */
     overflow: hidden;
 }
 
 #title {
+    margin-left: 2.5vw;
     color: #3AAFA9; 
     font-weight: bold;
     font-size: 40px;
 }
 
+#project_container {
+    text-align: center;
+    margin: auto;
+    max-width: 900px;
+}
+
 #individual {
-    border-width: 1px;
-    border-style: solid;
-    border-color: blue;
+    display: inline-block;
     overflow: hidden;
 
 }
 
-#pictureContainer {
-    float: left;
+#sample_width {
     text-align: center;
-    width: 45%;
-    height: 30vh;
-    margin: 2vh 2.5%;
-    background: #b0b0b0;
-    border-color: orange;
-    border-style: solid;
-}
-
-#picture {
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0 auto;
-}
-
-#smallDescription {
-    float: left;
-    width: 45%;
-    height: 30vh;
-    margin: 2vh 2.5%;
-    border-color: green;
-    border-style: solid;
-}
-
-#projectName {
-    color: #3AAFA9; 
-    font-weight: bold;
-    font-size: 25px;
-}
-
-#projectDescShort {
-    font-size: 15px;
-}
-
-#longDescription {
-    float:left;
-    width: 90%;
-    margin: 0 5%;
-    display: none;
-    border-color: red;
-    border-style: solid;
+    background: lightseagreen;
+    max-width: 900px;
 }
