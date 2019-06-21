@@ -1,7 +1,7 @@
 export const personalProjects = [
     {
         id: 1,
-        name: 'Senior Projects',
+        name: 'Arpeggio Biosciences',
         picture: './../../assets/images/arpeggioBiosciences.png',
         descriptionShort: 
             'This was the project that I worked on with a group ' +
@@ -40,11 +40,15 @@ export const personalProjects = [
 
     {
         id: 2,
-        name: 'Second project', 
+        name: 'My Personal Site', 
         picture: './../../assets/images/personalSite.png',
         descriptionShort: 
-            'Me, I am the ongoing project' +
-            'bow for the new king when it is done',
+        'I picked up this project to address two issues. The first was ' +
+        'I didn\'t have a place on this world wide web that I could call my own. ' +
+        'Of course I wanted it to look well, so I used it as the perfect ' +
+        'excuse to tackle the second issue, which was that I wanted to challenge myself to ' +
+        'build in a frontend framework I have not used before, I chose Angular!',
+
         descriptionLong: ['None of you want my life story',
         'it would all just blow your mind']
     }

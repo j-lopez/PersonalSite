@@ -1,0 +1,22 @@
+<div id="Skills">
+    <H1>Skills</H1>
+
+    <div id="skillsContainer" *ngFor="let skill of personalSkills">
+        <div id="skill">
+            <div id="language">{{ skill.language }}</div>
+                <div id="frameworks">
+                <div *ngFor="let frame of skill.frameworks">
+                    <div id="individualFramework" style="border: 1px solid darkmagenta">
+                        <p style="width: 100%;">{{ frame.name }}</p>
+                        <div class="progress" style="width: 85%; float:left; border: 2px solid lightgray;">
+                            <div class="progress-bar" role="progressbar" [style.width]="frame.rating"></div>
+                        </div>
+                        <div id="logo">
+                            <img [src]="frame.logo" style=" max-width: 100%; max-height: 100%; object-fit: contain;">
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

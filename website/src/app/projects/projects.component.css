@@ -4,11 +4,11 @@
     overflow: hidden;
 }
 
-#title {
-    margin-left: 2.5vw;
-    color: #3AAFA9; 
+#end {
+    text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    color: #3AAFA9;
+    font-size: 25px;
 }
 
 #project_container {
@@ -20,11 +20,4 @@
 #individual {
     display: inline-block;
     overflow: hidden;
-
-}
-
-#sample_width {
-    text-align: center;
-    background: lightseagreen;
-    max-width: 900px;
 }

@@ -5,7 +5,8 @@ import { personalProjects } from './../personalProjects';
 @Component({
     selector: 'app-projects',
     templateUrl: './projects.component.html',
-    styleUrls: ['./projects.component.css'],
+    styleUrls: ['./projects.component.css',
+                '../app.component.css'],
 })
 export class ProjectsComponent {
     personalProjects = personalProjects;
