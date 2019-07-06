@@ -1,6 +1,7 @@
 <div id="Projects">
     <H1 id="title">Projects</H1>
-
+    <!-- Decided to pass individual projects to child component for easier handling 
+         of a "read more" button -->
     <div id="project_container">
         <div id="individual" *ngFor="let project of personalProjects">
             <app-individual-project

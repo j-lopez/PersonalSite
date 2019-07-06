@@ -1,11 +1,15 @@
 <div id="Home">
     <div id="info_bar">
+        <!-- Contains the header at the top of page and links other places further down page. 
+            TODO: Implement an interests page so I don't look boring as a rock. -->
+
             <div id=title>
                 Julio Lopez
             </div>
 
-            <button type="button" class="btn btn-scroll" 
-            (click)="scroll('Interests')">Interests</button>
+            <!--button type="button" class="btn btn-scroll" 
+            (click)="scroll('Interests')">Interests</button 
+                To be implemented soon, want to deploy -->
 
             <button type="button" class="btn btn-scroll"
             (click)="scroll('Skills')">Skills</button>
@@ -19,12 +23,15 @@
     </div> 
 
     <div id="personal_info">
+        <!-- Contains my profile picture as well as a few personal links
+            TODO: Add a link for my resumé for potential downloads-->
         <div id="picture">
                 <img id="profile_picture" src= "./../../assets/images/profilePictureCrop.jpg">
         </div>
 
-        <div id="contact" style="margin: 0 auto;">
-                <p id="contact_text" >(719) 291-8357</p>
+        <div id="contact">
+            <img id="contact_icon" src="./../../assets/images/linkedin-128.ico">
+            <a id="contact_link" href="https://www.linkedin.com/in/julio-lopez-jr/">linkedin.com/in/julio-lopez-jr</a>
         </div>
 
         <div id="contact">
@@ -32,9 +39,14 @@
             <p id="contact_text">juliolopezjr45@gmail.com</p>
         </div>
 
-        <div id="contact" style="margin-bottom: 2vh;">
+        <div id="contact">
             <img id="contact_icon" src="./../../assets/images/GitHub-Mark-32px.png">
             <a id="contact_link" href="https://github.com/j-lopez">github.com/j-lopez</a>
+        </div>
+   
+        <div id="contact" style="margin-bottom: 2vh;">
+            <img id="contact_icon" src="./../../assets/images/icons8-download-resume-50.png">
+            <a id="contact_link" href="./../../assets/Lopez Resume.pdf">Resume</a>
         </div>
 
     </div>

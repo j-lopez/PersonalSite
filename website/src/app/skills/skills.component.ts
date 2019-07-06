@@ -9,6 +9,7 @@ import { personalSkills } from './../personalSkills';
                 '../app.component.css']
 })
 export class SkillsComponent {
+    // Creates individual progress bars to show my knowledge of various technologies
     personalSkills = personalSkills;
 
     constructor () {} 

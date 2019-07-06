@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
     styleUrls: ['./individual-project.component.css'],
 })
 export class IndividualProjectComponent {
+    // Created this component so each project can have control of its view.
     @Input() project;
     show = false;
     button = "Read more";
@@ -20,6 +21,7 @@ export class IndividualProjectComponent {
         this.show = !this.show;
     }
 
+    // Used for ternary conditional
     showDescription(){
         return this.show;
     }

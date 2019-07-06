@@ -9,19 +9,8 @@ import { personalProjects } from './../personalProjects';
                 '../app.component.css'],
 })
 export class ProjectsComponent {
+    // Parent component to easily create new projects by updating personalProjects.ts
     personalProjects = personalProjects;
     
     constructor() { }
-
-    showLongDescription() {
-        console.log("Will figure this out soon");
-        var desc = document.getElementById("longDescription");
-        var button = document.getElementById("readButton");
-
-        if (desc.style.display === 'none') {
-            desc.style.display = 'inline';
-
-        }
-
-    }
 }

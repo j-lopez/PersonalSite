@@ -49,8 +49,30 @@ export const personalProjects = [
         'excuse to tackle the second issue, which was that I wanted to challenge myself to ' +
         'build in a frontend framework I have not used before, I chose Angular!',
 
-        descriptionLong: ['None of you want my life story',
-        'it would all just blow your mind']
+        descriptionLong: [
+        'Before this site, I didn\'t have a centralized location on the internet ' +
+        'that I could truly call my own. I knew that I needed this to have a place ' +
+        'where I could post updates to projects I have been working on or have a place ' +
+        'where people could learn more about me (if you\'re reading this, I guess this ' +
+        'is for you!) I wanted to keep my coding skills sharp over the summer while I ' +
+        'look for work, so I decided to let this be the first personal passion project ' +
+        'I produce.',
+        '    After working with React, I became hungry to learn more about frontend ' +
+        'developing, but I also wanted the challenge myself to change up my approach to ' +
+        'coding. After some research and decided that I would experiment with Angular 8 ' +
+        'to build this site. Angular may have been overkill for building a single-page ' +
+        'website, but it wound up proving incredibly beneficial for creating a strong ' +
+        'foundation I can easily build on top of, as well as a great first experience ' +
+        'with the framework as I learned the basics.',
+        '    I enjoy coding when I know the goal I am aiming for. This is easy ' +
+        'to determine when given an assignment to complete, but much harder to define ' +
+        'when doing something for yourself. I didn\'t know where to begin in setting up ' +
+        'a view for the site, and rusty HTML/CSS caused a lot of frustration early on. ' +
+        'After a while I decided to pull out a notebook to try sketching out how I ' +
+        'would want a certain section to look, and then use that idea to create the ' +
+        'view on the screen. This greatly accelerated my work pace because it gave me ' +
+        'the goal I was looking for, and helped me design a page I am proud of!'
+        ]
     }
     
 ]

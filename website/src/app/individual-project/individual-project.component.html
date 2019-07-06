@@ -1,7 +1,11 @@
+<!--Child component to projects.component, creates an individual
+    view for each project in personalProjects.ts-->
+
 <div id="pictureContainer">
     <img id="picture" [src]="project.picture"> 
 </div>
 
+<!--Conatains the picture of the project, a short description, and the option to read more-->
 <div id="smallDescription"> 
     <p id="projectName">{{ project.name }}</p>
     <br>
@@ -9,6 +13,8 @@
     <button type="button" class="btn-sm btn-read-more" (click)="changeLongDescription()" >{{ button }}</button>
 </div>
 
+<!--Controls whether or not to show the longer description
+    Descriptions broken up in an array to create new lines, cheeky but it works-->
 <div [style.display]="showDescription() ? 'inline' : 'none'">
     <div  id="longDescription" *ngFor="let para of project.descriptionLong">
     <div id="description_text" ><br>&nbsp; &nbsp; &nbsp;{{ para }} </div>

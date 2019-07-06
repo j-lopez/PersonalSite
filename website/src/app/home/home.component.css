@@ -1,3 +1,6 @@
+/*  Will try to keep order of classes consistent with those found in the html files
+    TODO: View website on different computers to create a more universal view*/
+
 #Home {
     background: #3AAFA9;
     height: 50%;
@@ -19,16 +22,6 @@
     letter-spacing: 6px;
 }
 
-#link {
-    font-weight: bold;
-    font-size: 2vh;
-    margin-top: 30px;
-    margin-right: 20px;
-    float: right;
-    color: white;
-    letter-spacing: 3px;
-}
-
 .btn-scroll {
     margin-top: 30px;
     margin-right: 0.5vw;
@@ -48,17 +41,9 @@
     transition: 0.3s; 
 } 
 
-#profile {
-    width: 100%;
-    height: 50vh;
-    float: left;
-    background: white;
-}
-
 #picture {
     text-align: center;
     margin-top: 2vh;
-
 }
 
 #profile_picture {
@@ -73,17 +58,23 @@
 
 #contact_icon {
     display: inline-block;
-    height: 20px;
-    width:  20px;
+    height: 18px;
+    width:  18px;
     margin: 3px 10px;
 }
 
 #contact_text {
     display: inline-block;
     color: #17252A;
-    font-weight: 500;
+    font-size: 16px;
 }
 
 #contact_link {
     text-decoration: none;
+    color: #17252A;
+    font-size: 15px;
+}
+
+#contact_link:hover {
+    text-decoration: underline;
 }

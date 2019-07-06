@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  // Want to have people scroll smoothly to parts of the page
   scroll(id){
     let el = document.getElementById(id);
     el.scrollIntoView({behavior: 'smooth'});

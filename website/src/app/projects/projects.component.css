@@ -1,14 +1,6 @@
 #Projects {
     margin: 5vh 10%;
-    /* border: 1px solid black; */
     overflow: hidden;
-}
-
-#end {
-    text-align: center;
-    font-weight: bold;
-    color: #3AAFA9;
-    font-size: 25px;
 }
 
 #project_container {
@@ -20,4 +12,11 @@
 #individual {
     display: inline-block;
     overflow: hidden;
+}
+
+#end {
+    text-align: center;
+    font-weight: bold;
+    color: #3AAFA9;
+    font-size: 25px;
 }
